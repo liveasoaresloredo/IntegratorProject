@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    background: rgb(182,142,110);
+    background: linear-gradient(0deg, rgba(182,142,110,0.9486169467787114) 0%, rgba(139,103,72,0.9962359943977591) 100%);
+}
+
+div{
+    font-family: 'Heebo', sans-serif;
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+.bell{
+    width: 25px;
+    height: 25px;
+}
+
+.cart{
+    width: 25px;
+    height: 25px;
+}
+
+#menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    /* width: 80%;
+    height: auto;
+    background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco1 ul{
+    display: flex;
+}
+.bloco1 li{
+    padding-left: 10px;
+}
+
+.bloco2 ul{
+    display: flex;
+    margin-top: 8px;
+   
+}
+.bloco2 li{
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+a:hover{
+    color: black;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.menus2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid rgb(187, 186, 186) 1px;
+}
+
+.menu3 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.swiper {
+    width: 90%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#interesse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+#interesse img{
+    width: 200px;
+    height: 150px;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid 1px rgb(226, 226, 226);
+    background-color: rgb(95, 61, 39);
+}
+
+.pedido div{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fciclovivo.com.br%2Fvida-sustentavel%2Fbem-estar%2Fconsumo-regular-de-cafe-traz-beneficios-a-saude-afirmam-cientistas%2F&psig=AOvVaw1jar6sF_2XcR20wObJfrNm&ust=1670002727202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPiD4o372PsCFQAAAAAdAAAAABAE);
+}
